@@ -320,7 +320,7 @@ void decideOnMode(unsigned long currentMillisButton) { //after button event in l
   }
 }
 
-void loop() // main loop reading button being pressed and
+void loop() // main loop reading button and switching between modes
 {
 
   rotating = true;
