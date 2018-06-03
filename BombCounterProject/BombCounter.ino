@@ -5,13 +5,13 @@
 #define DIR_CCW -1 //direction counter clockwise
 #define DIR_NONE 0 //direction none
 
-
-const int TMSTROBE = 7;  //pins
-const int clock = 5;
-const int TMDISPLAY = 4;
-const int ENCODERBUTTON = 11;
-const int ENCODERB = 3;
-const int ENCODERA = 2;
+//pins
+const int TMSTROBE = 7; //STB on tm1638
+const int clock = 5; // CLK on tm1638
+const int TMDISPLAY = 4; // DIO on tm 1638
+const int ENCODERBUTTON = 11; //SW on rotary encoder 
+const int ENCODERB = 3; // DT on rotary encoder 
+const int ENCODERA = 2; // CLK on rotary encoder 
 
 
 const int LONGPRESS = 500; //variables to distinguish if it was a short or long press
